@@ -5,11 +5,11 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24">
+    <footer className="flexCenter mb-24 py-3 px-30 ">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" width={74} height={29} />
+            <Image src="/hagl_logo.png" alt="logo" height={50} width={50} />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
