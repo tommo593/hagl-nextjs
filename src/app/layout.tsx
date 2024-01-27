@@ -1,11 +1,13 @@
-import type { Metadata } from "next";
+"use client";
+import { Metadata } from "next";
+import "./globals.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import "./globals.css";
+import EmblaCarousel from "../components/EmblaCarousel";
 
-export const metadata: Metadata = {
+export const client: Metadata = {
   title: "Hagl",
   description: "The middle people for the little people",
 };

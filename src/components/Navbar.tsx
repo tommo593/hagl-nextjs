@@ -6,7 +6,14 @@ import Button from "./Button";
 const Navbar = () => {
   return (
     <>
-      <nav className="flexBetween max-container padding-container relative z-30 py-5 px-30">
+      <nav className="flexBetween max-container padding-container relative px-30 py-5 z-30">
+        <Image
+          src="/hagl_logo.png"
+          alt="logo"
+          height={120}
+          width={120}
+          className="cursor-pointer"
+        />
         <Link href="/"></Link>
         <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
@@ -19,13 +26,6 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
-        <Image
-          src="/hagl_logo.png"
-          alt="logo"
-          height={120}
-          width={120}
-          className="cursor-pointer"
-        />
         <Button
           type="button"
           title="Login"
